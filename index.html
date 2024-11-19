@@ -85,14 +85,30 @@
             <p>Comentario:</p>
         </section>
         <section id="MenciónHon">
-            <h3>Menciones honoríficas:</h3>
+            <h3>Menciones honoríficas (enlazadas a letterboxd para más info):</h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="https://letterboxd.com/film/rashomon/" target="_blank">Rashomon (1950) Dir. Akira Kurosawa</a></li>
+                <li><a href="https://letterboxd.com/film/winter-light/" target="_blank">Winter Light (1963) Dir. Ingmar Bergman</a></li>
+                <li><a href="https://letterboxd.com/film/los-caifanes/" target="_blank">Los Caifanes (1967) Dir. Juan Ibáñez</li></a>
+                <li><a href="https://letterboxd.com/film/investigation-of-a-citizen-above-suspicion/" target="_blank">Investigation of a citizen above suspicion (1970) Dir. Elio Petri</a></li>
+                <li><a href="https://letterboxd.com/film/the-long-goodbye/" target="_blank">The long goodbye (1973) Dir. Robert Altman</a></li>
+                <li>Muchas más (pregúntame)</li>
             </ul>
+        </section>
+        <section id="Recomendar">
+                <h2>¡Recomiéndame una película!</h2>
+                <form action="https://formspree.io/f/mzzbvena" method="POST"
+                    <label for="nombre">Tu Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+    
+                    <label for="pelicula">Película Recomendada:</label><br>
+                    <input type="text" id="pelicula" name="pelicula" placeholder="Nombre de la película" required><br><br>
+    
+                    <label for="comentario">¿Por qué debo verla?</label><br>
+                    <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe un comentario" required></textarea><br><br>
+    
+                    <button type="submit">Enviar</button>
+                </form>
         </section>
     </main>
     <hr>
